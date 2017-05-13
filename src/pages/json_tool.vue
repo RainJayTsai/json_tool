@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Editor :raw_data="context"></Editor>
-    <div>{{context}}</div>
+    <Editor v-model="context"></Editor>
+    <div style="white-space: pre">{{context}}</div>
   </div>
 </template>
 
